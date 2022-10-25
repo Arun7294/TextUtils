@@ -69,7 +69,7 @@ export default function TextForm(props) {
         </div>
 
         <button
-          className="" style={backgroundColor:"#444b6e"}
+          className="btn btn-primary mx-2" 
          
           onClick={handleUpClick}
         >
