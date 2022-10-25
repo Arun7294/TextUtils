@@ -17,7 +17,7 @@ export default function Navbar(props) {
   //     }
     
     <nav className={`navbar navbar-expand-lg navbar-${props.Mode}`} 
-    style= {{backgroundColor: props.Mode ==="dark"?"#5e574d":"#ab947e"}}>
+    style= {{backgroundColor: props.Mode ==="dark"?"grey":"#55c7ed"}}>
     <div className="container-fluid">
       <a className="navbar-brand" href="/">{props.title}</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
